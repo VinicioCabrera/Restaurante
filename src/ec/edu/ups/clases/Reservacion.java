@@ -6,15 +6,32 @@
 package ec.edu.ups.clases;
 
 /**
- *
- * @author PCX
+ * @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
  */
 public class Reservacion 
 {
+
+    @Override
+    public String toString() 
+    {
+        return "Reservacion{" + "codigoReservacion=" + codigoReservacion + ", numeroMesaReservacion=" + numeroMesaReservacion + ", horarioReservacion=" + horarioReservacion + '}';
+    }
     private int codigoReservacion;
     private int numeroMesaReservacion;
     private double horarioReservacion;
     
+       public void Dia( ){
+    
+}
+     public void Hora( ){
+    
+}  
+     public void costos(){
+         
+}
     
     public void setcodigoReservacion(int codigoReservacion)
     {

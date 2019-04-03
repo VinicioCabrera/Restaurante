@@ -6,19 +6,36 @@
 package ec.edu.ups.clases;
 
 /**
- *
- * @author PCX
+ * @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
  */
 public class Sucursal 
 {
-    private int numeroLocal;
+
+    @Override
+    public String toString() 
+    {
+        return "Sucursal{" + "numeroRes=" + numeroRes + ", nombreRes=" + nombreRes + ", direccionRes=" + direccionRes + '}';
+    }
+    private int numeroRes;
     private String nombreRes;
     private String direccionRes;
     
+       public void nombreLocal( ){
     
-    public void setnumeroLocal(int numeroLocal)
+}
+     public void codigoLocal( ){
+    
+}  
+     public void direccionLocal(){
+         
+}
+    
+    public void setnumeroRes(int numeroRes)
     {
-        this.numeroLocal=numeroLocal; 
+        this.numeroRes=numeroRes; 
     }
     
     public void setnombreRes(String nombreRes)
@@ -31,9 +48,9 @@ public class Sucursal
         this.direccionRes=direccionRes;
     } 
     
-    public int getnumeroLocal()
+    public int getnumeroRes()
     {
-        return this.numeroLocal; 
+        return this.numeroRes; 
     }
     
     public String getnombreRes()

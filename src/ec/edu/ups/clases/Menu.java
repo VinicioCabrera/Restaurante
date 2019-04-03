@@ -6,20 +6,35 @@
 package ec.edu.ups.clases;
 
 /**
- *
- * @author PCX
+ * @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
  */
 public class Menu 
 {
-    private String nombreSeccion;
+
+    @Override
+    public String toString() 
+    {
+        return "Menu{" + "nombreBebidas=" + nombreBebidas + ", nombreComida=" + nombreComida + ", costoComida=" + costoComida + '}';
+    }
+    private String nombreBebidas;
     private String nombreComida;
     private double costoComida;
     
+    public void comida( ){
+        
+}
+     public void bebidas( ){
     
-    public void setnombreSeccion(String nombreSeccion)
-    {
-        this.nombreSeccion=nombreSeccion; 
-    }
+}  
+     public void costos(){
+         
+}
+     public void setnombrebebidas(String nombreBebidas){
+      this.nombreBebidas=nombreBebidas;   
+     }
     
     public void setnombreComida(String nombreComida)
     {
@@ -31,9 +46,9 @@ public class Menu
         this.costoComida=costoComida;
     } 
     
-    public String getnombreSeccion()
+    public String getnombreBebidas()
     {
-        return this.nombreSeccion; 
+        return this.nombreBebidas; 
     }
     
     public String getnombreComida()
@@ -45,4 +60,6 @@ public class Menu
     {
         return this.costoComida;
     } 
+
+    
 }

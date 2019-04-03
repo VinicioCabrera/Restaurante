@@ -6,15 +6,32 @@
 package ec.edu.ups.clases;
 
 /**
- *
- * @author PCX
+ * @version 2.0
+ * @since 2019
+ * @author Vinicio campoverde
+ * @see http://ups.edu.ec
  */
 public class Empleado 
 {
+
+    @Override
+    public String toString() 
+    {
+        return "Empleado{" + "nombreEmpleado=" + nombreEmpleado + ", sueldoEmpleado=" + sueldoEmpleado + ", entradaEmpleado=" + entradaEmpleado + '}';
+    }
     private String nombreEmpleado;
     private double sueldoEmpleado;
     private double entradaEmpleado;
     
+       public void nombres( ){
+    
+}
+     public void cedula( ){
+    
+}  
+     public void asignar(){
+         
+}
     
     public void setnombreEmpleado(String nombreEmpleado)
     {
